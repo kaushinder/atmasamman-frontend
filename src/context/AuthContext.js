@@ -23,7 +23,7 @@ export const AuthProvider = ({ children }) => {
     setLoading(false);
   }, []);
 
- const signup = async (name, email, password) => {
+const signup = async (name, email, password) => {
   try {
     const res = await fetch(`${API_URL}/api/auth/register`, {
       method: "POST",
@@ -31,25 +31,23 @@ export const AuthProvider = ({ children }) => {
       body: JSON.stringify({ name, email, password }),
     });
 
-    if (!res.ok) {
-      throw new Error("Server error: " + res.status);
-    }
+    const data = await res.json(); // read JSON first
 
-    const data = await res.json();
+    if (!res.ok) {
+      throw new Error(data.message || "Signup failed"); // now has the real message
+    }
 
     if (!data.success) throw new Error(data.message || "Signup failed");
 
     localStorage.setItem("atmasamman_token", data.token);
     localStorage.setItem("atmasamman_user", JSON.stringify(data.data));
     setCurrentUser(data.data);
-
     return data;
   } catch (err) {
     console.error("Signup error:", err);
     throw err;
   }
 };
-
   const login = async (email, password) => {
     try {
       const res = await fetch(`${API_URL}/api/auth/login`, {
