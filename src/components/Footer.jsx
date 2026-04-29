@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="row">
 
           <div className="col-12 col-md-3 mb-4 text-center text-md-start">
-            <img src="/assets/images/as.jpg" alt="Atmasamman Logo"
+            <img src="/assets/images/as.jpeg" alt="Atmasamman Logo"
               style={{ width: "80px", borderRadius: "50%" }} className="mb-2" />
             <h6 className="fw-bold">Atmasamman Group</h6>
             <p style={{ fontSize: "0.9rem", opacity: 0.8 }}>
