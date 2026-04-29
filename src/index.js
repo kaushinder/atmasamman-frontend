@@ -12,6 +12,7 @@ import { ShimmerPage } from "./components/Shimmer.jsx";
 import Login from "./auth/Login.jsx";
 import SignUp from "./auth/SignUp.jsx";
 import ForgotPassword from "./auth/ForgotPassword.jsx";
+import ResetPassword from "./auth/ResetPassword.jsx";
 
 // Lazy load all pages for code splitting
 const HomePage    = lazy(() => import("./pages/home/HomePage.jsx"));
@@ -50,6 +51,7 @@ root.render(
           <Route path="/contact"       element={<Contact />} />
           <Route path="/enroll"        element={<Enroll />} />
           <Route path="/forgotPassword" element={<ForgotPassword />} />
+          <Route path="/resetPassword" element={<ResetPassword />} />
           <Route path="/payment"       element={<Payment />} />
           <Route path="/getInvolved"   element={<GetInvolved />} />
           <Route path="/SignUp"         element={<SignUp />} />
