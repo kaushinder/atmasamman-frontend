@@ -68,8 +68,8 @@ function Contact() {
             education, and innovation. Reach out for courses, collaborations, or any queries.
           </p>
           <p><strong>Email:</strong>{" "}
-            <a href="mailto:support.atmasamman@gmail.com" className="text-decoration-none text-primary">
-              support.atmasamman@gmail.com
+            <a href="mailto:aimtindia1947@gmail.com" className="text-decoration-none text-primary">
+             aimtindia1947@gmail.com
             </a>
           </p>
           <p><strong>Phone:</strong> +91 7830060800</p>

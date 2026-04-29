@@ -77,7 +77,7 @@ const Footer = () => {
             </ul>
             <div className="mt-3">
               <p style={{ fontSize: "0.85rem", opacity: 0.8, marginBottom: "4px" }}>
-                <strong>Email:</strong> support.atmasamman@gmail.com
+                <strong>Email:</strong> aimtindia1947@gmail.com
               </p>
               <p style={{ fontSize: "0.85rem", opacity: 0.8 }}>
                 <strong>Phone:</strong> +91 7830060800
