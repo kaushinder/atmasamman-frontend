@@ -68,7 +68,7 @@ function Navbar() {
                       <li>✔ Machine Learning</li><li>✔ Data Science</li>
                       <li>✔ Hands-on Projects</li><li>✔ Industry Training</li>
                     </ul>
-                    <Link to="/ASAI" className="ats-link">Explore →</Link>
+                    <Link to="/ASAI" className="ats-link" style={{ textDecoration:"underline",color:"black" }}>Explore →</Link>
                     <a href="https://aimt-management.vercel.app/" target="_blank" rel="noopener noreferrer" className="ats-link" style={{ textDecoration:"underline",color:"black" }}>Visit Website ↗</a>
                   </div>
                   <div className="ats-mega-image"><img src="/assets/images/ecosystem.png" alt="ASAI" /></div>
@@ -88,7 +88,7 @@ function Navbar() {
                       <li>✔ Certification Programs</li><li>✔ Career Guidance</li>
                       <li>✔ Industry Mentorship</li><li>✔ Placement Support</li>
                     </ul>
-                    <Link to="/AIMT" className="ats-link">Explore →</Link>
+                    <Link to="/AIMT" className="ats-link" style={{ textDecoration:"underline",color:"black" }}>Explore →</Link>
                     <a href="https://aimt-management.vercel.app/" target="_blank" rel="noopener noreferrer" className="ats-link" style={{ textDecoration:"underline",color:"black" }}>Visit Website ↗</a>
                   </div>
                   <div className="ats-mega-image"><img src="/assets/images/ecosystem.png" alt="AIMT" /></div>
