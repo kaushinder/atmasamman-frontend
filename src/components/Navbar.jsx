@@ -56,7 +56,7 @@ function Navbar() {
               </div>
 
               <div className="col-6 col-md-3 ats-wrapper">
-                <a href="https://ats-tech-services.vercel.app/" target="_blank" rel="noopener noreferrer" className="nav-card">
+                <a href="https://asai-ai-school.vercel.app/" target="_blank" rel="noopener noreferrer" className="nav-card">
                   <div className="icon"><i className="fa-solid fa-robot"></i></div>
                   <h6>ASAI</h6><p>AI School</p>
                 </a>
@@ -69,7 +69,7 @@ function Navbar() {
                       <li>✔ Hands-on Projects</li><li>✔ Industry Training</li>
                     </ul>
                     <Link to="/ASAI" className="ats-link" style={{ textDecoration:"underline",color:"black" }}>Explore →</Link>
-                    <a href="https://aimt-management.vercel.app/" target="_blank" rel="noopener noreferrer" className="ats-link" style={{ textDecoration:"underline",color:"black" }}>Visit Website ↗</a>
+                    <a href="https://asai-ai-school.vercel.app/" target="_blank" rel="noopener noreferrer" className="ats-link" style={{ textDecoration:"underline",color:"black" }}>Visit Website ↗</a>
                   </div>
                   <div className="ats-mega-image"><img src="/assets/images/ecosystem.png" alt="ASAI" /></div>
                 </div>
