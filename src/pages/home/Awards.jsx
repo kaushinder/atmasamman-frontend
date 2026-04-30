@@ -1,4 +1,5 @@
 import React from "react";
+import Loader from "../../components/Loader";
 
 function Awards() {
   return (
@@ -14,33 +15,23 @@ function Awards() {
         }}
       >
 
-        {/* Image Section */}
+        {/* Loader Section (replaces image) */}
         <div className="col-lg-5 text-center mb-4 mb-lg-0">
-          <img
-            src="https://www.shutterstock.com/image-photo/business-technology-internet-network-concept-600nw-2688674135.jpg"
-            alt="Vision"
-            className="img-fluid"
+          <div
             style={{
-              maxWidth: "90%",
               height: "230px",
-              borderRadius: "15px",
-              objectFit: "cover",
-              boxShadow: "0 10px 25px rgba(0,0,0,0.4)",
-              transition: "0.4s",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
             }}
-            onMouseEnter={(e) =>
-              (e.currentTarget.style.transform = "scale(1.05)")
-            }
-            onMouseLeave={(e) =>
-              (e.currentTarget.style.transform = "scale(1)")
-            }
-          />
+          >
+            <Loader />
+          </div>
         </div>
 
         {/* Content Section */}
         <div className="col-lg-7">
 
-          {/* Heading */}
           <h1
             className="fw-bold mb-3"
             style={{
@@ -52,7 +43,6 @@ function Awards() {
             Our Vision
           </h1>
 
-          {/* Description */}
           <p style={{ opacity: 0.85, fontSize: "1.05rem" }} className="mb-4">
             To become a leading force in technology, making advanced IT solutions
             and future ready skills accessible and affordable for all.
